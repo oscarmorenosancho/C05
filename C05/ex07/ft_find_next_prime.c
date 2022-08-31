@@ -6,7 +6,7 @@
 /*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 09:19:27 by omoreno-          #+#    #+#             */
-/*   Updated: 2022/08/31 10:43:57 by omoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/31 14:04:29 by omoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_find_next_prime(int nb)
 {
 	int	next_to_check;
 
-	if (nb < 2)
+	if (nb <= 2)
 		return (2);
 	next_to_check = nb + 1 - (nb % 2);
 	while (! ft_is_prime(next_to_check))
