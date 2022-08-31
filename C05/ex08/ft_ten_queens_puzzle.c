@@ -1,4 +1,16 @@
-int ft_ten_queens_puzzle(void)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ten_queens_puzzle.c                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/08/31 09:23:23 by omoreno-          #+#    #+#             */
+/*   Updated: 2022/08/31 09:23:36 by omoreno-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+int	ft_ten_queens_puzzle(void)
 {
     // 1) Start in the leftmost column
     // 2) If all queens are placed
