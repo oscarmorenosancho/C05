@@ -6,7 +6,7 @@
 /*   By: omoreno- <omoreno-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 09:15:16 by omoreno-          #+#    #+#             */
-/*   Updated: 2022/08/31 13:28:41 by omoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/31 14:52:35 by omoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_sqrt(int nb)
 		i++;
 		sq = i * i;
 	}
-	if (sq  == nb)
+	if (sq == nb)
 		return (i);
 	return (0);
 }
